@@ -5,4 +5,5 @@ const msg = getNotes();
 
 console.log(msg);
 
-console.log(chalk.bgGreen.bold.inverse('Success!'));
+const greenMsg = chalk.green.inverse.bold('Success!');
+console.log(greenMsg);
