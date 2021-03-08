@@ -1,5 +1,9 @@
 console.log('utils.js')
 
-const name = 'Victor'
+const name = 'Lofi'
 
-module.exports = name;
+const add = function (a, b) {
+    return a + b;
+}
+
+module.exports = add;
